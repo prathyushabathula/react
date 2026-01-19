@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react by prathyusha",
+  "keywords": [],
+  "homepage": "https://github.com/prathyushabathula/react#readme",
+  "bugs": {
+    "url": "https://github.com/prathyushabathula/react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathyushabathula/react.git"
+  },
+  "license": "ISC",
+  "author": "Prathyusha Bathula",
+  "type": "commonjs",
+  "scripts": {
+    "start" : "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
